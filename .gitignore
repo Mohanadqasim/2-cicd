@@ -1,5 +1,6 @@
 *.pem
 *-key
 *-key.pub
+*.pdf
 github-ec2-key
 github-ec2-key.pub
