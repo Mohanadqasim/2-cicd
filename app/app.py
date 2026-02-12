@@ -11,7 +11,7 @@ def home():
         "status": "running",
         "hostname": socket.gethostname(),
         "environment": os.getenv("ENV", "development"),
-        "version": "Version 33 deployed automatically 🔥🔥🔥🔥🔥🔥🔥🔥"
+        "version": "Version 2998 deployed automatically 🔥🔥🔥🔥🔥🔥🔥🔥"
     })
 
 @app.route("/health")

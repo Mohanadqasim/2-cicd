@@ -1,0 +1,5 @@
+*.pem
+*-key
+*-key.pub
+github-ec2-key
+github-ec2-key.pub
