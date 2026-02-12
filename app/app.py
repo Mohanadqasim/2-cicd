@@ -7,10 +7,12 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Hello from DevOps Project 1 🚀",
+        "message": "Hello from DevOps Project CICD 🚀",
         "status": "running",
         "hostname": socket.gethostname(),
         "environment": os.getenv("ENV", "development")
+        return "CI/CD is alive 🚀"
+        return "Version 2 deployed automatically 🔥"
     })
 
 @app.route("/health")
