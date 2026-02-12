@@ -10,9 +10,8 @@ def home():
         "message": "Hello from DevOps Project CICD 🚀",
         "status": "running",
         "hostname": socket.gethostname(),
-        "environment": os.getenv("ENV", "development")
-        return "CI/CD is alive 🚀"
-        return "Version 2 deployed automatically 🔥"
+        "environment": os.getenv("ENV", "development"),
+        "version": "Version 2 deployed automatically 🔥"
     })
 
 @app.route("/health")
